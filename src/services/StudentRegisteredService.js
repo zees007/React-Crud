@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 class StudentRegisteredService {
-    getAllBooks(name){
+    getAllBooks(){
         return axios.get('http://localhost:8080/registrations')
     }
 
@@ -28,6 +28,10 @@ class StudentRegisteredService {
 
     createAchievement(achievement){
         return axios.post('http://localhost:8080/achievement/save', achievement);
+    }
+
+    getAllAchievementList(){
+        return axios.get('http://localhost:8080/achievements')
     }
 
 }

@@ -8,11 +8,9 @@ import {faMinus} from "@fortawesome/free-solid-svg-icons";
 
 const TaskList = (props) => {
 
-
-
     return (
         props.taskList.map((val, idx) => {
-            let achievementPara = `achievementPara-${idx}`
+            let achievementPara = `achievementPara-${idx}`;
             return (
                 <tr key={val.index}>
                     <td>
@@ -29,5 +27,5 @@ const TaskList = (props) => {
             )
         })
     )
-}
+};
 export default TaskList
