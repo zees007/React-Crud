@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1454eaa4-687f-42ff-a26c-8ed809007724" name="Default Changelist" comment="" />
+    <list default="true" id="1454eaa4-687f-42ff-a26c-8ed809007724" name="Default Changelist" comment="Modified the nested object handling">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Achievement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Achievement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AchievementList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AchievementList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/StudentRegisteredService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/StudentRegisteredService.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -21,9 +31,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Angular Projects/CHC/chc-frontend-new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,17 +71,26 @@
       <option name="presentableId" value="Default" />
       <updated>1595578048499</updated>
       <workItem from="1595578052511" duration="53189000" />
+      <workItem from="1595781608793" duration="6216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modified the nested object handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified the nested object handling" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="233" y="3" key="#ESLint" timestamp="1595583759453">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="3" key="#ESLint/0.0.1280.680@0.0.1280.680" timestamp="1595583759453" />
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1595798292691">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1595798292691" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1595674130629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
