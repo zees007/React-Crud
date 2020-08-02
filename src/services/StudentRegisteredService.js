@@ -34,5 +34,9 @@ class StudentRegisteredService {
         return axios.get('http://localhost:8080/achievements')
     }
 
+    createParty(permission){
+        return axios.post('http://localhost:8080/permission/save', permission)
+    }
+
 }
 export default new StudentRegisteredService()

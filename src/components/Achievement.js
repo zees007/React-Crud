@@ -1,16 +1,18 @@
 import React, {Component} from "react";
-import {Button, Card, Form} from "react-bootstrap";
+import {Button, Card, Dropdown, Form} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import TaskList from "./TaskList";
 import StudentRegisteredService from "../services/StudentRegisteredService";
 
 export default class Achievement extends Component {
     imageId;
+    categoryId;
 
     constructor(props) {
         super(props);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
+
     }
 
 
@@ -21,6 +23,8 @@ export default class Achievement extends Component {
             achievementScores: []
         }]
     };
+
+
 
 
     handleSubmit = (e) => {
@@ -42,6 +46,7 @@ export default class Achievement extends Component {
     };
 
 
+
     handleChange(e) {
         if (["achievementPara"].includes(e.target.name)) {
             let taskList = [...this.state.taskList];
@@ -51,6 +56,8 @@ export default class Achievement extends Component {
             this.setState({[e.target.name]: e.target.value})
         }
     }
+
+
 
 
     addNewRow = () => {
@@ -89,6 +96,8 @@ export default class Achievement extends Component {
 
     render() {
         const {achievementYearHeading, achievementImage, taskList} = this.state;
+
+
 
         return (
             <div className="content">
@@ -147,6 +156,11 @@ export default class Achievement extends Component {
                         </Card.Footer>
                     </Form>
                 </Card>
+                <br/>
+
+
+
+
             </div>
 
         );

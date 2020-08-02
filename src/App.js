@@ -10,6 +10,7 @@ import BookList from "./components/BookList";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import AchievementList from "./components/AchievementList";
 import Achievement from "./components/Achievement";
+import Party from "./components/Party";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                         <Route path="/list" exact component={BookList}/>
                         <Route path="/achievement" exact component={Achievement}/>
                         <Route path="/achievementList" exact component={AchievementList}/>
+                        <Route path="/party" exact component={Party}/>
                     </Switch>
                 </Row>
             </Container>

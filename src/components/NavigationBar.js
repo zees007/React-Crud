@@ -16,6 +16,7 @@ class NavigationBar extends Component {
                         <Link to={"list"} className="nav-link">Book List</Link>
                         <Link to={"achievement"} className="nav-link">Add Achievement</Link>
                         <Link to={"achievementList"} className="nav-link">Achievement List</Link>
+                        <Link to={"party"} className="nav-link">Add Party</Link>
                     </Nav>
 
             </Navbar>
